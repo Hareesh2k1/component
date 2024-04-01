@@ -1,0 +1,61 @@
+.heading {
+    padding: 5px 10px; 
+    color: rgb(63, 35, 89);
+    text-align: center;
+}
+
+
+.MuiTabs-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiTab-root {
+  font-size: 16px;
+  font-weight: bold;
+  color: #545252;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.MuiTab-root:hover {
+  background-color: #e0e0e0;
+}
+
+.Mui-selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.MuiCard-root {
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        padding: 3px 6px; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .MuiTabs-root {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .MuiTab-root {
+    margin: 5px;
+  }
+
+  .MuiCard-root {
+    width: 75%; 
+  }
+}
